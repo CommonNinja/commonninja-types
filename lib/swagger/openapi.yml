@@ -28,5 +28,9 @@ components:
     Money:
       type: object
       properties:
-        value: { type: number }
-        currencyCode: { type: string }
+        value:
+          type: number
+          example: 56.2
+        currencyCode:
+          type: string
+          example: EUR
