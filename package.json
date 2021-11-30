@@ -1,0 +1,56 @@
+{
+  "name": "@commonninja/commonninja-integrations-utils",
+  "version": "0.0.0-development.2",
+  "description": "A utils lib for Common Ninja Integrations",
+  "main": "dist/lib/index.js",
+  "types": "dist/lib/index.d.ts",
+  "files": [
+    "dist",
+    "scripts"
+  ],
+  "scripts": {
+    "clean": "rimraf dist/*",
+    "test": "jest",
+    "lint": "tslint --config tslint.json './{lib}/**/*.ts'",
+    "build": "npm run build:lib:compile",
+    "build:lib:compile": "tsc",
+    "prepare": "npm run lint && npm run build",
+    "prepublish": "npm run test && npm run build",
+    "prebuild": "npm run clean",
+    "start": "npm run test && npm run build && node dist/lib/index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CommonNinja/commonninja-integrations-utils.git"
+  },
+  "keywords": [
+    "Utils"
+  ],
+  "author": "Daniel Sternlicht",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/CommonNinja/commonninja-integrations-utils/issues"
+  },
+  "homepage": "https://github.com/CommonNinja/commonninja-integrations-utils#readme",
+  "dependencies": {
+    "bunyan": "^1.8.12",
+    "bunyan-debug-stream": "^2.0.0",
+    "dotenv": "^6.2.0",
+    "path": "^0.12.7"
+  },
+  "devDependencies": {
+    "@types/bunyan": "^1.8.5",
+    "@types/jest": "^23.3.13",
+    "@types/node": "^10.12.18",
+    "jest": "^24.5.0",
+    "rimraf": "^3.0.2",
+    "ts-jest": "^23.10.5",
+    "tslint": "^5.12.0",
+    "tslint-config-airbnb": "^5.11.1",
+    "typescript": "^3.9.5"
+  },
+  "peerDependencies": {},
+  "directories": {
+    "lib": "lib"
+  }
+}
