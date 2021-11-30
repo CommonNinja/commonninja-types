@@ -1,0 +1,16 @@
+openapi: "3.0.0"
+info:
+  version: 1.0.0
+  title: Integratino Utils
+components:
+  schemas:
+    Product:
+      type: object
+      properties:
+        id: { type: integer}
+        createdAt: {type: string }
+    Money:
+      type: object
+      properties:
+        value: { type: number }
+        currencyCode: { type: string }
