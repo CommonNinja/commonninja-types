@@ -6,7 +6,8 @@
   "types": "dist/lib/index.d.ts",
   "files": [
     "dist",
-    "scripts"
+    "scripts",
+    "lib/swagger/openapi.yml"
   ],
   "scripts": {
     "clean": "rimraf dist/*",
