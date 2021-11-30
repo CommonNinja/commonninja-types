@@ -1,7 +1,7 @@
 {
-  "name": "@commonninja/commonninja-node-utils",
-  "version": "1.22.76",
-  "description": "A utils lib for Common Ninja NodeJS services",
+  "name": "@commonninja/commonninja-integrations-utils",
+  "version": "0.0.1",
+  "description": "A utils lib for Common Ninja Integrations",
   "main": "dist/lib/index.js",
   "types": "dist/lib/index.d.ts",
   "files": [
@@ -21,7 +21,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CommonNinja/commonninja-node-utils.git"
+    "url": "git+https://github.com/CommonNinja/commonninja-integrations-utils.git"
   },
   "keywords": [
     "Utils"
@@ -29,9 +29,9 @@
   "author": "Daniel Sternlicht",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/CommonNinja/commonninja-node-utils/issues"
+    "url": "https://github.com/CommonNinja/commonninja-integrations-utils/issues"
   },
-  "homepage": "https://github.com/CommonNinja/commonninja-node-utils#readme",
+  "homepage": "https://github.com/CommonNinja/commonninja-integrations-utils#readme",
   "dependencies": {
     "aws-sdk": "^2.620.0",
     "bunyan": "^1.8.12",
