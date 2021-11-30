@@ -19,6 +19,8 @@ jobs:
         env:
           NPM_TOKEN: ${{ secrets.NPM_TOKEN }}      
       - run: npm test
+        env:
+          NPM_TOKEN: ${{ secrets.NPM_TOKEN }}          
       - name: Release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
