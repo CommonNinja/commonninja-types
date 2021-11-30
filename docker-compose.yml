@@ -9,4 +9,4 @@ services:
       - PAGE_TITLE=Integration Utils
       - SPEC_URL=swagger/openapi.yml
     volumes:
-      - ./lib/swagger:/usr/share/nginx/html/swagger
+      - ./swagger:/usr/share/nginx/html/swagger
