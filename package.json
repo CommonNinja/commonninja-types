@@ -9,13 +9,14 @@
     "scripts"
   ],
   "scripts": {
+    "clean": "rimraf dist/*",
     "test": "jest",
     "lint": "tslint --config tslint.json './{lib}/**/*.ts'",
     "build": "rm -rf dist/* && npm run build:server:compile",
     "build:server:compile": "tsc",
     "prepare": "npm run lint && npm run build",
     "prepublish": "npm run test && npm run build",
-    "prebuild": "node ./scripts/pre-build.js",
+    "prebuild": "npm run clean",
     "start": "npm run test && npm run build && node dist/lib/index.js"
   },
   "repository": {
