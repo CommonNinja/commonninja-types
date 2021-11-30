@@ -2,6 +2,15 @@ openapi: "3.0.0"
 info:
   version: 1.0.0
   title: Integration Utils
+tags:
+- name: models
+  x-displayName: All Models
+  description: |
+    ## Product
+    <SchemaDefinition schemaRef="#/components/schemas/Product" />
+    
+    ## Money
+    <SchemaDefinition schemaRef="#/components/schemas/Money" />     
 components:
   schemas:
     Product:
