@@ -16,7 +16,6 @@
     "build": "npm run build:lib:compile",
     "build:lib:compile": "tsc",
     "prepare": "npm run lint && npm run build",
-    "prepublish": "npm run test && npm run build",
     "prebuild": "npm run clean",
     "start": "npm run test && npm run build && node dist/lib/index.js",
     "release": "semantic-release",
