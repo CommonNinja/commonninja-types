@@ -1,4 +1,6 @@
 # commonninja-integrations-utils
+[![Release](https://github.com/CommonNinja/commonninja-integrations-utils/actions/workflows/release.yml/badge.svg?branch=master)](https://github.com/CommonNinja/commonninja-integrations-utils/actions/workflows/release.yml)
+
 
 In order to publish the package to our private npm repo run `npm publish`.
 
