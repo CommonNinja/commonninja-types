@@ -2,7 +2,7 @@ import { Money } from "./money.type";
 
 export interface Product {
     createdAt?: string,
-    Description?: string,
+    description?: string,
     id?: string;
     imageURL?: string;
     price?: Money;
