@@ -18,7 +18,9 @@
     "prepare": "npm run lint && npm run build",
     "prepublish": "npm run test && npm run build",
     "prebuild": "npm run clean",
-    "start": "npm run test && npm run build && node dist/lib/index.js"
+    "start": "npm run test && npm run build && node dist/lib/index.js",
+    "release": "semantic-release",
+    "semantic-release": "semantic-release"    
   },
   "repository": {
     "type": "git",
