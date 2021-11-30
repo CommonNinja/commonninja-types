@@ -20,7 +20,7 @@
     "prebuild": "npm run clean",
     "start": "npm run test && npm run build && node dist/lib/index.js",
     "release": "semantic-release",
-    "semantic-release": "semantic-release"    
+    "semantic-release": "semantic-release"
   },
   "repository": {
     "type": "git",
@@ -42,6 +42,7 @@
     "path": "^0.12.7"
   },
   "devDependencies": {
+    "@semantic-release/changelog": "^6.0.1",
     "@types/bunyan": "^1.8.5",
     "@types/jest": "^23.3.13",
     "@types/node": "^10.12.18",
