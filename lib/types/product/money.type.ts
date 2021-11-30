@@ -1,4 +1,4 @@
-export interface Moeny {
+export interface Money {
     value: number;
     currencyCode: string // USD, EUR, ...
 }
