@@ -1,6 +1,7 @@
 {
   "name": "@commonninja/commonninja-integrations-utils",
   "version": "0.0.0-development.1",
+  "private": true,
   "description": "A utils lib for Common Ninja Integrations",
   "main": "dist/lib/index.js",
   "types": "dist/lib/index.d.ts",
