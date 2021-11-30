@@ -16,8 +16,15 @@ components:
     Product:
       type: object
       properties:
+        createdAt: { type: string, format: date-time }
+        description: { type: string }
         id: { type: integer}
-        createdAt: {type: string }
+        imageURL: { type: string }
+        price:
+          $ref: '#/components/schemas/Money'
+        title: { type: string }
+        updatedAt: { type: string, format: date-time }
+        url: {type: string }
     Money:
       type: object
       properties:
