@@ -1,2 +1,2 @@
-export { Product }  from './product.type'
+export { Product }  from './product/product.type'
 
