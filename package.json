@@ -7,7 +7,7 @@
   "files": [
     "dist",
     "scripts",
-    "lib/swagger/openapi.yml"
+    "swagger/openapi.yml"
   ],
   "scripts": {
     "clean": "rimraf dist/*",
