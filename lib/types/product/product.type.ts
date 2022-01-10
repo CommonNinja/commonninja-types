@@ -1,4 +1,4 @@
-import { Money } from "./money.type";
+import { Money } from '../money/money.type';
 
 export interface Product {
     createdAt?: string
