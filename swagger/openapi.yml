@@ -40,6 +40,9 @@ components:
     Script:
       type: object
       properties:
+        id:
+          type: string
+          example: ID
         name:
           type: string
           example: Name
