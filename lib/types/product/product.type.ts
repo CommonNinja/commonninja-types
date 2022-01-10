@@ -1,4 +1,4 @@
-import { Money } from '../money/money.type';
+import { IMoney } from '../money/money.type';
 
 export interface IProduct {
   createdAt?: string;
@@ -6,7 +6,7 @@ export interface IProduct {
   id?: string;
   image?: string;
   images?: string[];
-  price?: Money;
+  price?: IMoney;
   title?: string;
   updatedAt?: string;
   url?: string;

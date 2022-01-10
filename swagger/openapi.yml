@@ -11,6 +11,9 @@ tags:
     
     ## Money
     <SchemaDefinition schemaRef="#/components/schemas/Money" />     
+    
+    ## Script
+    <SchemaDefinition schemaRef="#/components/schemas/Script" />     
 components:
   schemas:
     Product:
@@ -34,3 +37,28 @@ components:
         currencyCode:
           type: string
           example: EUR
+    Script:
+      type: object
+      properties:
+        name:
+          type: string
+          example: Name
+        description:
+          type: string
+          example: Description
+        src:
+          type: string
+          example: https://cdn.commoninja.com/sdk/latest/commonninja.js
+        location:
+          type: string
+          example: head
+        loadMethod:
+          type: string
+          example: defer
+        scope:
+          type: string
+          example: all
+        cache:
+          type: boolean
+          example: true
+        
