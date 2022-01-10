@@ -1,6 +1,6 @@
 import { Money } from '../money/money.type';
 
-export interface Product {
+export interface IProduct {
   createdAt?: string;
   description?: string;
   id?: string;

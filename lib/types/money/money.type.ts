@@ -1,4 +1,4 @@
-export interface Money {
+export interface IMoney {
   value: number;
   currencyCode: string; // USD, EUR, ...
 }
