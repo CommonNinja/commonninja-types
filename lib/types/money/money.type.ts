@@ -1,4 +1,4 @@
 export interface Money {
-    value: number;
-    currencyCode: string // USD, EUR, ...
+  value: number;
+  currencyCode: string; // USD, EUR, ...
 }
