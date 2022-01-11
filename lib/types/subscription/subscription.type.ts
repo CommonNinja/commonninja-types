@@ -6,4 +6,5 @@ export interface ISubscription {
   name?: string;
   currency?: string;
   redirectUrl?: string;
+  isTest?: string;
 }
