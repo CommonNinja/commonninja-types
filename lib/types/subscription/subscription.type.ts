@@ -1,7 +1,6 @@
 export interface ISubscription {
   amount: number;
-  period: number;
-  periodType: 'day' | 'week' | 'month' | 'year';
+  period: 'MONTH' | 'ANNUAL';
   id?: string;
   name?: string;
   currency?: string;
