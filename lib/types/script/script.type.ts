@@ -3,7 +3,7 @@ export interface IScript {
   id?: string;
   name?: string;
   description?: string;
-  location?: 'head' | 'body';
+  location?: 'head' | 'footer';
   loadMethod?: 'defer' | 'async';
   scope?: 'storefront' | 'checkout' | 'all';
   cache?: boolean;
