@@ -1,4 +1,4 @@
-# commonninja-types
+# @commonninja/types
 [![Release](https://github.com/CommonNinja/commonninja-types/actions/workflows/release.yml/badge.svg?branch=master)](https://github.com/CommonNinja/commonninja-types/actions/workflows/release.yml)
 
 
