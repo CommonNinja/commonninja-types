@@ -1,5 +1,5 @@
 {
-  "name": "@commonninja/commonninja-integrations-utils",
+  "name": "@commonninja/types",
   "version": "0.0.0-development",
   "description": "A utils lib for Common Ninja Integrations",
   "main": "dist/lib/index.js",
@@ -23,7 +23,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/CommonNinja/commonninja-integrations-utils.git"
+    "url": "git+https://github.com/CommonNinja/commonninja-types.git"
   },
   "keywords": [
     "Utils"
