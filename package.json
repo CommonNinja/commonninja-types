@@ -31,9 +31,9 @@
   "author": "Daniel Sternlicht",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/CommonNinja/commonninja-integrations-utils/issues"
+    "url": "https://github.com/CommonNinja/commonninja-types/issues"
   },
-  "homepage": "https://github.com/CommonNinja/commonninja-integrations-utils#readme",
+  "homepage": "https://github.com/CommonNinja/commonninja-types#readme",
   "dependencies": {
     "bunyan": "^1.8.12",
     "bunyan-debug-stream": "^2.0.0",

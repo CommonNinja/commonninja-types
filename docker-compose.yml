@@ -6,7 +6,7 @@ services:
     ports:
       - 8083:80      
     environment:
-      - PAGE_TITLE=Integration Utils
+      - PAGE_TITLE=Types
       - SPEC_URL=swagger/openapi.yml
     volumes:
       - ./swagger:/usr/share/nginx/html/swagger
