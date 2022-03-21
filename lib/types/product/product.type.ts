@@ -10,4 +10,10 @@ export interface IProduct {
   title?: string;
   updatedAt?: string;
   url?: string;
+  tags?: string[];
+  status?: string;
+  type?: 'physical' | 'digital';
+  sku?: string;
+  vendor?: string;
+  category?: string;
 }
