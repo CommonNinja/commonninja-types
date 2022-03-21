@@ -12,7 +12,7 @@ export interface IProduct {
   url?: string;
   tags?: string[];
   status?: string;
-  type?: 'physical' | 'digital';
+  isPhysical?: boolean;
   sku?: string;
   vendor?: string;
   category?: string;
