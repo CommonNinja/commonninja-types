@@ -38,5 +38,3 @@ interface ICustomerOrder {
   fulfillmentStatus?: 'fulfilled' | 'partial' | 'unfulfilled';
   lineItems?: IProduct[];
 }
-
-
