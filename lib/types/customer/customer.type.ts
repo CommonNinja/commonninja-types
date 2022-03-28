@@ -14,7 +14,7 @@ export interface ICustomer {
   orders?: ICustomerOrder[];
 }
 
-interface IAddress {
+export interface IAddress {
   zip?: string;
   country?: string;
   city?: string;
@@ -22,7 +22,7 @@ interface IAddress {
   address2?: string;
 }
 
-interface ICustomerOrder {
+export interface ICustomerOrder {
   orderNumber?: string;
   totalPrice?: number;
   totalDiscount?: number;
@@ -34,7 +34,7 @@ interface ICustomerOrder {
   updatedAt?: string;
   billingAddress?: IAddress;
   shippingAddress?: IAddress;
-  currency?: string;
+  currencyCode?: string;
   fulfillmentStatus?: 'fulfilled' | 'partial' | 'unfulfilled';
   lineItems?: IProduct[];
 }
