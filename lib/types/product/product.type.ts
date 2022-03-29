@@ -11,8 +11,13 @@ export interface IProduct {
   updatedAt?: string;
   url?: string;
   tags?: string[];
-  status?: string;
+  status?: 'active' | 'archived' | 'draft';
   isPhysical?: boolean;
+  dimensions?: {
+    width?: number;
+    height?: number;
+    weight?: number;
+  };
   sku?: string;
   vendor?: string;
   category?: string;
