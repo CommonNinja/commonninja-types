@@ -8,4 +8,6 @@ export type TPlatform =
   | 'woocommerce'
   | 'shift4shop'
   | 'wix'
-  | 'wordpress';
+  | 'wordpress'
+  | 'webflow'
+  | 'ecwid';
