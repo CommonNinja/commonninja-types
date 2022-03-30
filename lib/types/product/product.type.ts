@@ -4,7 +4,6 @@ export interface IProduct {
   createdAt?: string;
   description?: string;
   id?: string;
-  image?: string;
   images?: string[];
   price?: IMoney;
   title?: string;
