@@ -7,11 +7,12 @@ export interface ICustomer {
   firstName?: string;
   lastName?: string;
   email?: string;
-  phoneNumber?: number;
+  phoneNumber?: string;
   acceptMarketing?: boolean;
   address?: IAddress;
   tags?: string[];
   orders?: ICustomerOrder[];
+  totalSpent: string;
 }
 
 export interface IAddress {
@@ -26,10 +27,10 @@ export interface IAddress {
 
 export interface ICustomerOrder {
   orderNumber?: string;
-  totalPrice?: number;
-  totalDiscount?: number;
-  totalTax?: number;
-  totalShipping?: number;
+  totalPrice?: string;
+  totalDiscount?: string;
+  totalTax?: string;
+  totalShipping?: string;
   status?: 'active' | 'cancelled';
   paymentStatus?: 'paid' | 'pending' | 'refunded';
   createdAt?: string;
