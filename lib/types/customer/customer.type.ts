@@ -12,7 +12,7 @@ export interface ICustomer {
   address?: IAddress;
   tags?: string[];
   orders?: ICustomerOrder[];
-  totalSpent: string;
+  totalSpent?: string;
 }
 
 export interface IAddress {
