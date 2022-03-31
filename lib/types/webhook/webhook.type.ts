@@ -1,6 +1,6 @@
 import { TPlatform } from '../platform/platform.type';
 
-export type TWebhookMessageType =
+export type TWebhookMessage =
   | 'unknown'
   | 'app.install'
   | 'app.uninstall'
@@ -21,7 +21,7 @@ export type TWebhookMessageType =
   | 'shimpent.deleted';
 
 export interface IWebhookMessage {
-  type: TWebhookMessageType;
+  type: TWebhookMessage;
   status: 'received' | 'pending' | 'sent' | 'failed';
   platformUserId: string;
   appId: string;
