@@ -1,13 +1,20 @@
 export type TPlatform =
+  // E-Commerce
   | 'nindo'
   | 'shopify'
   | 'bigcommerce'
   | 'bigcartel'
-  | 'duda'
   | 'magento'
   | 'woocommerce'
   | 'shift4shop'
   | 'wix'
+  | 'ecwid'
+  // Site builders
+  | 'duda'
   | 'wordpress'
   | 'webflow'
-  | 'ecwid';
+  // Payments
+  | 'stripe'
+  | 'paypal'
+  | 'paddle'
+  | 'bluesnap';
