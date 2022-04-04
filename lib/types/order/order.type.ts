@@ -4,6 +4,7 @@ import { IProduct } from '../product/product.type';
 export interface IOrder {
   orderNumber?: string;
   id?: string;
+  customerId?: string;
   totalPrice?: string;
   totalDiscount?: string;
   totalTax?: string;
