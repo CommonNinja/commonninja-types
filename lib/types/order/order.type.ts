@@ -7,13 +7,18 @@ export interface IOrder {
   totalDiscount?: string;
   totalTax?: string;
   totalShipping?: string;
-  status?: 'active' | 'cancelled';
-  paymentStatus?: 'paid' | 'pending' | 'refunded';
+  status?:
+    | 'cancelled'
+    | 'completed'
+    | 'failed'
+    | 'refunded'
+    | 'pending'
+    | 'processing'
+    | 'on-hold';
   createdAt?: string;
   updatedAt?: string;
   billingAddress?: IAddress;
   shippingAddress?: IAddress;
   currencyCode?: string;
-  fulfillmentStatus?: 'fulfilled' | 'partial' | 'unfulfilled';
   lineItems?: IProduct[];
 }
