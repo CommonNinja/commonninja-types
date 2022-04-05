@@ -9,6 +9,7 @@ export interface IOrder {
   totalDiscount?: string;
   totalTax?: string;
   shippingTax?: string;
+  note?: string;
   totalShipping?: string;
   status?:
     | 'cancelled'
