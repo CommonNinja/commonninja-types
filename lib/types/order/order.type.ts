@@ -23,5 +23,14 @@ export interface IOrder {
   billingAddress?: IAddress;
   shippingAddress?: IAddress;
   currencyCode?: string;
-  lineItems?: IProduct[];
+  lineItems?: ILineItem[];
+}
+
+export interface ILineItem {
+  id?: string;
+  productId?: string;
+  title?: string;
+  price?: string;
+  sku?: string;
+  quantity?: number;
 }
