@@ -18,7 +18,8 @@ export interface IOrder {
     | 'refunded'
     | 'pending'
     | 'processing'
-    | 'on-hold';
+    | 'on-hold'
+    | 'partial';
   createdAt?: string;
   updatedAt?: string;
   billingAddress?: IAddress;
