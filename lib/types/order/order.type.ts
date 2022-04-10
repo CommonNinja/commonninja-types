@@ -1,10 +1,10 @@
+import { ICustomer } from '..';
 import { IAddress } from '../address/address.type';
-import { IProduct } from '../product/product.type';
 
 export interface IOrder {
   orderNumber?: string;
   id?: string;
-  customerId?: string;
+  customer?: ICustomer;
   totalPrice?: string;
   totalDiscount?: string;
   totalTax?: string;
