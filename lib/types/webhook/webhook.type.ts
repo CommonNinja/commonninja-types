@@ -1,6 +1,7 @@
 import { TPlatform } from '../platform/platform.type';
 
 export type TWebhookMessage =
+  | 'unhandled'
   | 'unknown'
   | 'app.install'
   | 'app.uninstall'
