@@ -1,4 +1,5 @@
 export * from './address/address.type';
+export * from './category/category.type';
 export * from './customer/customer.type';
 export * from './money/money.type';
 export * from './order/order.type';
