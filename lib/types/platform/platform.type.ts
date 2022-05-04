@@ -17,4 +17,8 @@ export type TPlatform =
   | 'stripe'
   | 'paypal'
   | 'paddle'
-  | 'bluesnap';
+  | 'bluesnap'
+  // Storage
+  | 'aws'
+  | 'google'
+  | 'azure';
