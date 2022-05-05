@@ -6,10 +6,6 @@ export interface IBucket extends IModelWrapper {
   name?: string;
   appId?: string;
   platform?: TPlatform;
-  user?: {
-    platform?: TPlatform;
-    platformUserId?: string;
-  };
 }
 
 export interface IFolder extends IModelWrapper {
