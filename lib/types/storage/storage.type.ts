@@ -19,6 +19,7 @@ export interface IFile extends IModelWrapper {
   platform?: TPlatform;
   contentType?: string;
   name?: string;
+  size?: number;
   url?: string;
   body?: any;
   user?: {
