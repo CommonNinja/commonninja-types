@@ -16,6 +16,7 @@ export interface IFolder extends IModelWrapper {
   id?: string;
   appId?: string;
   platform?: TPlatform;
+  bucket?: string;
   name?: string;
   path?: string;
   user?: {
