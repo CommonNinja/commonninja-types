@@ -1,3 +1,4 @@
+import { IModelWrapper } from '../common.types';
 import { TPlatform } from '../platform/platform.type';
 
 export type TWebhookMessage =
@@ -32,7 +33,7 @@ export type TWebhookMessage =
   | 'shimpent.updated'
   | 'shimpent.deleted';
 
-export interface IWebhookMessage {
+export interface IWebhookMessage extends IModelWrapper {
   type: TWebhookMessage;
   status: 'received' | 'pending' | 'sent' | 'failed';
   platformUserId: string;
