@@ -6,5 +6,6 @@ export interface IUser {
   platformUserId: string;
   name: string;
   email: string;
-  plan?: IPlan;
+  subscriptionId: null | string; 
+  plan: null | IPlan;
 }
