@@ -19,6 +19,7 @@ export interface IPlan extends IModelWrapper {
     [key: string]: any;
   };
   isActive: boolean;
+  isFree: boolean;
   meta: {
     [key: string]: any;
   };
