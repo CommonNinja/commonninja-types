@@ -9,10 +9,11 @@ export type TPlatform =
   | 'shift4shop'
   | 'wix'
   | 'ecwid'
+  | 'squarespace'
+  | 'webflow'
   // Site builders
   | 'duda'
   | 'wordpress'
-  | 'webflow'
   // Payments
   | 'stripe'
   | 'paypal'
