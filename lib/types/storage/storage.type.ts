@@ -32,7 +32,7 @@ export interface IFile extends IModelWrapper {
   folderId?: string | null;
   url?: string;
   body?: any;
-  meta: { [key: string]: any };
+  meta?: { [key: string]: any };
   user?: {
     platform?: TPlatform;
     platformUserId?: string;
