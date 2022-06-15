@@ -1,6 +1,8 @@
+export type IPaymentPlanPeriod = 'day' | 'week' | 'month' | 'year' | 'lifetime' | 'one-time';
+
 export interface IPaymentPlan {
   amount: number;
-  period: 'MONTH' | 'ANNUAL' | 'ONE_TIME';
+  period: IPaymentPlanPeriod;
   id?: string;
   name?: string;
   periodCount?: number;
