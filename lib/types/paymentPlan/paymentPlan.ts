@@ -7,4 +7,5 @@ export interface IPaymentPlan {
   currency?: string;
   redirectUrl?: string;
   isTest?: boolean;
+	trialPeriodDays?: number;
 }
