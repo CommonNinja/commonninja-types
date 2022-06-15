@@ -4,6 +4,7 @@ export * from './category/category.type';
 export * from './customer/customer.type';
 export * from './money/money.type';
 export * from './order/order.type';
+export * from './paymentPlan/paymentPlan.type';
 export * from './plan/plan.type';
 export * from './platform/platform.type';
 export * from './product/product.type';
