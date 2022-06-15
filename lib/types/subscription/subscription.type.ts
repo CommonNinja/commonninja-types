@@ -1,10 +1,4 @@
-export interface ISubscription {
-  amount: number;
-  period: 'MONTH' | 'ANNUAL';
-  periodCount?: number;
-  id?: string;
-  name?: string;
-  currency?: string;
-  redirectUrl?: string;
-  isTest?: boolean;
-}
+import { IPaymentPlan } from '../paymentPlan/paymentPlan';
+
+// TODO: Deprecate in the future
+export interface ISubscription extends IPaymentPlan {}
