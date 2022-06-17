@@ -35,7 +35,6 @@ export type TWebhookMessage =
 
 export interface IWebhookMessage extends IModelWrapper {
   type: TWebhookMessage;
-  status: 'received' | 'pending' | 'sent' | 'failed';
   platformUserId: string;
   appId: string;
   platform: TPlatform;
