@@ -11,6 +11,7 @@ export type TWebhookMessage =
   | 'app.subscription.suspended'
   | 'app.subscription.deleted'
   | 'app.payment.created'
+  | 'app.payment.completed'
   | 'app.payment.updated'
   | 'app.payment.failed'
   | 'app.payment.refunded'
