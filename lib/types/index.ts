@@ -13,4 +13,5 @@ export * from './storage/storage.type';
 export * from './subscription/subscription.type';
 export * from './user/user.type';
 export * from './webhook/webhook.type';
+export * from './shopDetails/shopDetails.type';
 
