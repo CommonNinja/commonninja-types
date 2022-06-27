@@ -1,4 +1,4 @@
-export interface IShopDetails {
+export interface IStoreDetails {
 	id?: string;
 	currency?: string;
 	currencyCode?: string;
