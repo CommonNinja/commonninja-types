@@ -6,4 +6,5 @@ export interface IShopDetails {
 	countryCode?: string;
 	name?: string;
 	url?: string;
+	rawBody?: any;
 }
