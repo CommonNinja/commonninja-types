@@ -14,3 +14,4 @@ export * from './subscription/subscription.type';
 export * from './user/user.type';
 export * from './webhook/webhook.type';
 export * from './storeDetails/storeDetails.type';
+export * from './coupon/coupon.type';
