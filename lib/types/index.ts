@@ -8,6 +8,8 @@ export * from './paymentPlan/paymentPlan.type';
 export * from './plan/plan.type';
 export * from './platform/platform.type';
 export * from './product/product.type';
+export * from './product/productDimensions.type';
+export * from './product/productVariant.type';
 export * from './script/script.type';
 export * from './storage/storage.type';
 export * from './subscription/subscription.type';
