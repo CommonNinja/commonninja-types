@@ -10,6 +10,7 @@ export interface IProduct {
   title?: string;
   description?: string;
   url?: string;
+  mainImage?: string;
   images?: IProductImage[];
   price?: IMoney;
   tags?: string[];
