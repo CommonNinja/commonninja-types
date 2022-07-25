@@ -6,6 +6,7 @@
 // Wix:           https://dev.wix.com/api/rest/wix-stores/catalog/products/get-product
 // BigCommerce:   https://developer.bigcommerce.com/api-reference/73a8d6a4fa0dc-get-all-product-images
 // Squarespace:   https://developers.squarespace.com/commerce-apis/update-product-image
+// BigCartel:     https://developers.bigcartel.com/api/v1#product-object
 
 export interface IProductImage {
   id?: string;
