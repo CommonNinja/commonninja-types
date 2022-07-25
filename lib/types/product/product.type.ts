@@ -1,5 +1,6 @@
 import { IMoney } from '../money/money.type';
 import { IProductDimensions } from './productDimensions.type';
+import { IProductImage } from './productImage.type';
 
 export interface IProduct {
   createdAt?: string;
@@ -9,7 +10,7 @@ export interface IProduct {
   title?: string;
   description?: string;
   url?: string;
-  images?: string[];
+  images?: IProductImage[];
   price?: IMoney;
   tags?: string[];
   status?: 'active' | 'archived' | 'draft';
