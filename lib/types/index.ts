@@ -6,6 +6,7 @@ export * from './money/money.type';
 export * from './order/order.type';
 export * from './paymentPlan/paymentPlan.type';
 export * from './plan/plan.type';
+export * from './planFeatures/planFeatures.type';
 export * from './platform/platform.type';
 export * from './product/product.type';
 export * from './product/productDimensions.type';
