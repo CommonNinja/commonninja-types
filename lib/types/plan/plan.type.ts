@@ -29,3 +29,8 @@ export interface IPlan extends IModelWrapper {
   trialPeriod: '' | 'day' | 'week' | 'month' | 'year';
   pricingVariants: IPlanVariant[];
 }
+
+export interface IUserPlan extends IPlan {
+  subscriptionId: null | string;
+  planPricingVariantId: null | string;
+}
