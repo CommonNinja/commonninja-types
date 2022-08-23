@@ -1,4 +1,5 @@
 import { IModelWrapper } from '../common.types';
+import { TPayloadSubscriptionStatus } from '../subscription/subscription.type';
 
 export interface IPlanVariant {
   id: string;
@@ -31,6 +32,9 @@ export interface IPlan extends IModelWrapper {
 }
 
 export interface IUserPlan extends IPlan {
-  subscriptionId: null | string;
-  planPricingVariantId: null | string;
+  subscription: {
+    status: null | TPayloadSubscriptionStatus;
+    platformSubscriptionId: null | string;
+    planPricingVariantId: null | string;
+  };
 }

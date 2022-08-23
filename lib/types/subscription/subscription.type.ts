@@ -1,4 +1,8 @@
-import { IPaymentPlan } from '../paymentPlan/paymentPlan.type';
-
-// TODO: Deprecate in the future
-export interface ISubscription extends IPaymentPlan {}
+export type TPayloadSubscriptionStatus =
+  | 'active'
+  | 'cancelled'
+  | 'pending'
+  | 'expired'
+  | 'declined'
+  | 'trial'
+  | 'unknown';
