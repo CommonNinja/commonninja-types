@@ -9,11 +9,13 @@
 // BigCartel:     https://developers.bigcartel.com/api/v1#product-object
 
 export interface IProductImage {
-  id?: string;
-  createdAt?: string;
-  updatedAt?: string;
-  variantIds?: string[];
-  src?: string;
-  width?: number;
-  height?: number;
+	id?: string;
+	createdAt?: string;
+	updatedAt?: string;
+	variantIds?: string[];
+	src?: string;
+	width?: number;
+	height?: number;
+	alt?: string;
+	position?: number;
 }
