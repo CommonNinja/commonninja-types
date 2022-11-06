@@ -31,9 +31,9 @@ export type TWebhookMessage =
   | 'order.created'
   | 'order.updated'
   | 'order.deleted'
-  | 'shimpent.created'
-  | 'shimpent.updated'
-  | 'shimpent.deleted';
+  | 'shipment.created'
+  | 'shipment.updated'
+  | 'shipment.deleted';
 
 export interface IWebhookMessage extends IModelWrapper {
   type: TWebhookMessage;
