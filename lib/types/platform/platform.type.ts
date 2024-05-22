@@ -14,7 +14,7 @@ export type TPlatform =
   // Site builders
   | 'duda'
   | 'wordpress'
-  | 'highlevel'
+  | 'hlvl' // 'highlevel'
   // Payments
   | 'stripe'
   | 'paypal'
